@@ -6,6 +6,9 @@
   "scripts": {
     "test": "tape test.js"
   },
+  "bin": {
+    "tusd": "bin/tusd"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/little-core-labs/tusd-static.git"
@@ -28,6 +31,7 @@
     "tape": "^4.13.2"
   },
   "dependencies": {
+    "cross-spawn": "^7.0.2",
     "tusd-static-darwin": "^1.1.0",
     "tusd-static-linux": "^1.1.0"
   }

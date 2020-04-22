@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+const spawn = require('cross-spawn')
+const tusd = require('../')
+spawn(tusd.path, process.argv.slice(2), { stdio: 'inherit' })
