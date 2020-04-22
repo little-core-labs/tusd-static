@@ -1,0 +1,34 @@
+{
+  "name": "tusd-static",
+  "version": "1.0.0",
+  "description": "Static binaries for the `tusd(1)` command.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/little-core-labs/tusd-static.git"
+  },
+  "keywords": [
+    "tusd",
+    "static",
+    "binary",
+    "bin",
+    "command",
+    "tus"
+  ],
+  "author": "Joseph Werle <werle@littlestar.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/little-core-labs/tusd-static/issues"
+  },
+  "homepage": "https://github.com/little-core-labs/tusd-static#readme",
+  "devDependencies": {
+    "tape": "^4.13.2"
+  },
+  "dependencies": {
+    "tusd-static-darwin": "^1.1.0",
+    "tusd-static-linux": "^1.1.0"
+  }
+}
