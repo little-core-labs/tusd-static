@@ -20,7 +20,7 @@ console.log(tusd.path)
 ## See Also
 
 * https://github.com/tus/tusd
-* https://github.com/little-core-labs/tusd-static-win32 (pending https://github.com/little-core-labs/tusd-static-win32/issues/1)
+* https://github.com/little-core-labs/tusd-static-win32
 * https://github.com/little-core-labs/tusd-static-linux
 * https://github.com/little-core-labs/tusd-static-darwin
 

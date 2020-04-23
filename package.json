@@ -33,6 +33,7 @@
   "dependencies": {
     "cross-spawn": "^7.0.2",
     "tusd-static-darwin": "^1.1.0",
-    "tusd-static-linux": "^1.1.0"
+    "tusd-static-linux": "^1.1.0",
+    "tusd-static-win32": "^1.1.0"
   }
 }
